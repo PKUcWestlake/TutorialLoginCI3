@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Alata", sans-serif;
+}
+
+.login {
+	display: flex;
+	height: 100vh;
+}
+
+.left {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 40%;
+	padding: 5%;
+	text-align: center;
+}
+
+.left h1 {
+	color: #51384d;
+}
+
+.left span {
+	color: #51384d;
+	margin-top: -3px;
+	margin-bottom: 5px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.left h3 {
+	color: #51384d;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.group {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.group label {
+	color: #51384d;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.group input {
+	padding: 12px 12px 12px 55px;
+}
+
+.group i.fa {
+	position: absolute;
+	width: 50px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #9d5ed1;
+	border-radius: 5px 0 0 5px;
+	top: 34px;
+}
+
+button, label, p, input {
+	font-size: 14px;
+}
+
+button {
+	display: inline flex;
+	width: 100%;
+	cursor: pointer;
+	margin-top: 20px;
+	font-size: 14px;
+	padding: 10px;
+	background-color: #9d5ed1;
+	border: 0;
+	color: white;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.group input {
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	margin-left: 5px;
+}
+
+button i {
+	margin-right: 5px;
+}
+
+.right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 60%;
+	color: white;
+	background-color: #b683e0;
+	padding: 6%;
+	text-align: center;
+}
+
+.right h1 {
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+.right img {
+	width: 350px;
+	object-fit: contain;
+}
+
+a {
+	font-weight: bold;
+	margin-top: -10px;
+}
